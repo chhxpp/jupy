@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Jupyter Notebook",
+            "type": "shell",
+            "command": "\"D:/mydoc/projs/jupy/.venv/scripts/python.exe\" -m jupyter notebook --notebook-dir=src",
+            //"command": "python -m jupyter notebook --notebook-dir=src",
+            "problemMatcher": [],
+            "runOptions": {
+                "runOn": "folderOpen"  // 在打开文件夹时自动运行
+            }
+        }
+    ]
+}
